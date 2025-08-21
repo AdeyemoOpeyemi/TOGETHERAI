@@ -15,3 +15,4 @@ response = client.chat.completions.create(
         },{"role":"assistant", "content":"You are a travel expert" }])
 
 print(response.choices[0].message.content)
+
